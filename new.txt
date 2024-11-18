@@ -1,0 +1,46 @@
+2. Rodar o Código Principal
+O arquivo main.py é o ponto de entrada principal do projeto. Ele inicializa o processo de leitura de e-mails e manipulação dos dados.
+
+Execute o código:
+
+bash
+Copiar código
+python main.py
+Isso fará a busca dos e-mails e exibirá os resultados no terminal.
+
+Comandos Importantes
+Criar o ambiente virtual:
+
+bash
+Copiar código
+python -m venv venv
+Ativar o ambiente virtual:
+
+No Windows:
+bash
+Copiar código
+venv\Scripts\activate
+No macOS/Linux:
+bash
+Copiar código
+source venv/bin/activate
+Instalar as dependências do projeto:
+
+bash
+Copiar código
+pip install -r requirements.txt
+Rodar o código de leitura de e-mails:
+
+bash
+Copiar código
+python email_reader.py
+Rodar o código principal:
+
+bash
+Copiar código
+python main.py
+Dependências
+imaplib: Biblioteca padrão do Python para acessar e-mails via IMAP.
+email: Biblioteca padrão do Python para processar e-mails em formato MIME.
+requests: Biblioteca para interagir com APIs.
+psycopg2: Biblioteca para interação com o PostgreSQL (não incluída no exemplo acima, mas pode ser necessária dependendo da implementação).

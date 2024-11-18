@@ -1,0 +1,17 @@
+# Ignorar arquivos de compilação
+*.pyc
+*.pyo
+*.class
+
+# Ignorar ambiente virtual
+venv/
+
+# Ignorar arquivos sensíveis
+.env
+credentials.json
+token.pickle
+token.json
+
+# Ignorar o diretório de build
+build/
+dist/
